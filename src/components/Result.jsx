@@ -1,5 +1,6 @@
 import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@mui/material'
 import React from 'react'
+import '../styles/Result.css'
 
 const HoroscopeResult = (props) => {
     const result = props.result
@@ -22,7 +23,7 @@ const HoroscopeResult = (props) => {
 
     return (
         <>
-            <div>
+            <div className="result">
                 <TableContainer component={Paper}>
                     <Table>
                         <TableHead>

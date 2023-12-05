@@ -1,5 +1,6 @@
 import { Button, TextField } from '@mui/material'
 import React, { useState } from 'react'
+import '../styles/Form.css'
 import Result from './Result'
 
 const Form = () => {
@@ -42,7 +43,7 @@ const Form = () => {
 
     return (
         <>
-            <div>
+            <div className="form">
                 <form onSubmit={handleSubmit}>
                     <TextField
                         label="Year"
